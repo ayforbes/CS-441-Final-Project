@@ -277,7 +277,7 @@ document.getElementById('had-enough-btn').addEventListener('click', () => {
             dash.style.opacity=0;
             const dashHeading = document.getElementById("happiness-dashboard-heading");
             dashHeading.style.display='block';
-            typeWriter("You aren't alone.", dashHeading, 80, ()=>{
+            typeWriter("You aren't alone. Click a bubble.", dashHeading, 80, ()=>{
               const dashContent = document.getElementById("happiness-content");
               dashContent.style.display='block';
               setTimeout(()=>{ dashContent.style.opacity=1; },50);

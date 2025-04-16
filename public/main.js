@@ -277,7 +277,7 @@ document.getElementById('had-enough-btn').addEventListener('click', () => {
             dash.style.opacity=0;
             const dashHeading = document.getElementById("happiness-dashboard-heading");
             dashHeading.style.display='block';
-            typeWriter("You aren't alone. Click a bubble.", dashHeading, 80, ()=>{
+            typeWriter("You aren't alone.", dashHeading, 80, ()=>{
               const dashContent = document.getElementById("happiness-content");
               dashContent.style.display='block';
               setTimeout(()=>{ dashContent.style.opacity=1; },50);
@@ -575,7 +575,7 @@ function loadCharityPage(){
   const container= d3.select("#charity-page");
   container.append("h1")
     .attr("id","charity-title")
-    .text("Make a difference.");
+    .text("Make a difference. Click a bubble.");
 
   const pageWidth= container.node().clientWidth;
   const pageHeight= container.node().clientHeight;

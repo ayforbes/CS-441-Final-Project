@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What's Killing Us?</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-death">
+
+  <div id="intro">
+    <div id="intro-container">
+
+      <h1 id="intro-title"></h1>
+      <p id="intro-text"></p>
+    </div>
+    <button class="btn" id="enter-btn">Enter</button>
+  </div>
+
+
+  <div id="main-content" style="display:none;">
+    <div id="controls">
+      <label for="causeSelect">Select Condition:</label>
+      <select id="causeSelect"></select>
+      <br><br>
+      <label for="yearSlider">Select Year: <span id="yearLabel">2019</span></label>
+      <input type="range" id="yearSlider" min="1990" max="2019" step="1" value="2019">
+    </div>
+    <div id="map"></div>
+    <div id="poem-panel"></div>
+    <div style="text-align: center; margin-top: 20px;">
+      <button class="btn" id="had-enough-btn">Had enough?</button>
+    </div>
+  </div>
+
+
+  <div id="final-page" style="display:none;">
+    <div id="final-page-container"></div>
+  </div>
+
+
+  <div id="happiness-dashboard" style="display:none;">
+
+    <h1 id="happiness-dashboard-heading" style="display:none;"></h1>
+
+    <div id="happiness-content" style="display:none;">
+      <div id="happiness-controls">
+        <label for="happiness-country">Country:</label>
+        <select id="happiness-country"></select>
+        &nbsp;&nbsp;
+        <label for="happiness-year-slider">
+          Year: <span id="happiness-year-label"></span>
+        </label>
+        <input type="range" id="happiness-year-slider" min="0" max="0" step="1" value="0">
+      </div>
+      <div id="mainGauge"></div>
+
+      <div id="radarChart"></div>
+      <button class="btn" id="action-btn">so what?</button>
+    </div>
+  </div>
+
+  <div id="action-page" style="display:none;">
+    <h1 id="action-title"></h1>
+  </div>
+
+  <div id="charity-page" style="display:none;"></div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

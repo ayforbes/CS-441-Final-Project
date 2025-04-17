@@ -230,7 +230,7 @@ window.addEventListener("load", () => {
   const titleEl = document.getElementById("intro-title");
   const textEl  = document.getElementById("intro-text");
   typeWriter("A Shadow of Numbers.", titleEl, 100, () => {
-    const para = "That's just it - in a world measured by data, we wander through statistics that tell a tale of lives lost and hopes deferred. Here, in these numbers, lies not only a record of death but a mirror to our collective struggles and triumphs. Each figure is a story. Each statistic, a heartbeat. As you journey through these pages, ask yourself: what’s killing us?";
+    const para = "That's just it - in our world measured by data, we stumble through statistics that tell a story of lives lost and hopes deferred. In these numbers lies a record of death and a mirror to our collective struggles and triumphs. Each figure is a story. Each statistic is a heartbeat. So, as you journey through these pages, ask yourself: what’s killing us?";
     typeWriter(para, textEl, 50);
   });
 });

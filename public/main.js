@@ -297,8 +297,8 @@ document.getElementById('had-enough-btn').addEventListener('click', () => {
 const RADAR_PREDICTORS = [
   "Log GDP Per Capita",
   "Social Support",
-  "Healthy Life Expectancy At Birth",
-  "Freedom To Make Life Choices",
+  "Life Expectancy",
+  "Freedom To Make Decisions",
   "Generosity",
   "Perceptions Of Corruption",
   "Positive Affect",

@@ -1,6 +1,6 @@
 To run this code locally:
 
-	Install all files to a new folder, strictly maintaining the directory structure in GitHub
+	Install all files to a new folder, strictly maintaining the directory structure shown in GitHub
 
 	Open the folder in VScode
 
